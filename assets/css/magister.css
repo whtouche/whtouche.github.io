@@ -339,3 +339,12 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .container .main {
 	background:rgba(255,255,255,0.75);
 }
+
+.skills li{
+	display: inline-block;
+	border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+  padding: 2px;
+  background-color: #D8D8D8;
+}
