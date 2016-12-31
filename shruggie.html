@@ -1,11 +1,5 @@
 <p>
-  <button class="js-copy-bob-btn">¯\_(ツ)_/¯</button>
-  <button class="js-copy-jane-btn">Set clipboard to FRANK</button>
-</p>
-<p>
-  <textarea class="js-test-textarea" cols="50" rows="10">Try pasting into here to see what you have on your clipboard:
-
-  </textarea>
+  <button class="js-copy-shruggie-btn">¯\_(ツ)_/¯</button>
 </p>
 
 <script>
@@ -67,15 +61,10 @@ function copyTextToClipboard(text) {
 }
 
 
-var copyBobBtn = document.querySelector('.js-copy-bob-btn'),
-  copyJaneBtn = document.querySelector('.js-copy-jane-btn');
+var copyShruggieBtn = document.querySelector('.js-copy-shruggie-btn');
 
-copyBobBtn.addEventListener('click', function(event) {
+copyShruggieBtn.addEventListener('click', function(event) {
   copyTextToClipboard('¯\\_(ツ)_/¯');
 });
 
-
-copyJaneBtn.addEventListener('click', function(event) {
-  copyTextToClipboard('Jane');
-});
 </script>
